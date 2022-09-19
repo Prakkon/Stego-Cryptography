@@ -2,9 +2,9 @@
 
 ### 👋 Introduction 
 
-This projet uses encryption and steganography methods in a form of parallel computing to hide a secret image/text file in a cover image, and send it across mediums. It is an effective method of protecting data by hashing the secret text/image using encryption, hiding it with steganography, and passing it through various mediums until it reaches it's destination. In general, Stego-cryptography is incredibly useful for data security and privacy, and espionage! 
+This project uses encryption and steganography methods in a form of parallel computing to hide a secret image/text file in a cover image, and send it across mediums. It is an effective method of protecting data by hashing the secret text/image using encryption, hiding it with steganography, and passing it through various mediums until it reaches it's destination. In general, Stego-cryptography is incredibly useful for data security and privacy, and espionage! 
 
-However, this method has it's slight flaws as performing such a heavy computation on hundreds of texts or images can be time and space consuming. Our program deals with the same using parallel computing to greatly reduce time consumption. 
+However, this method has had it's slight flaws as performing such a heavy computation on hundreds of texts or images can be time and space consuming. Our program deals with the same using parallel computing to greatly reduce time and space consumption. 
 To show the difference between serialized and threaded stego-crytpography, we create visualizations 
 
 
