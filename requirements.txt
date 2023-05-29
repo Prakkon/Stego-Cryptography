@@ -1,0 +1,20 @@
+####
+
+You might have to install some libraries as your system may not initially support all of the libraries used in this project.
+most libraries can be installed using # pip install <library>
+In case a library seems depricated, refer to their respective documentations.
+----
+
+# Libraries used: 
+numpy
+matplotlib
+pandas
+click
+PIL
+threading
+cryptography
+cryptography.fernet
+----
+
+In case a library still appears missing, use # pip show   to view the versions of all the libraries being used. 
+Alternatively, check out the header section of each driver file. The import statements contain all the dependencies used in this project.
