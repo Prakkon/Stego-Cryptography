@@ -18,13 +18,13 @@ Dating back to the 5th century BC, steganography is one of the oldest methods of
 
 - Install the latest version of [PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html) and [Python 3](https://www.python.org/downloads/).
 - NOTE: You can use any other IDE or editor, PyCharm is recommended as it supports most of the libraries used in this project. 
-- Open the project in PyCharm IDE  and install the dependencies and libraries necessary.
+- Open the project in PyCharm IDE  and install the dependencies and libraries necessary using [requirements.txt](requirements.txt)
 - Open the directories Stego-Cryptography/big and Stego-Cryptography/small. These consist of cover(big) and secret(small) images (in terms of size in kB).
-- Change the directories of the big and small folders in the following file(s) to their directories in your local system=>
-      a. ```imagestegserial.py```: image embed in image steganography using serialization
-      b. ```imagestegthread.py```: image embed in image steganography using parallelization
-      c. ```pureTextstegencodeparallel.py```: text embed in image steganography using parallelization
-      d. ```pureTextstegs.py```: text embed in image steganography using serialization 
+- Change the directories of the big and small folders in the following file(s) to their directories in your local system
+1.    [imagestegserial.py](imagestegserial.py): image embed in image steganography using serialization
+2.    [imagestegthread.py](imagestegthread.py): image embed in image steganography using parallelization
+3.    [pureTextstegencodeparallel.py](pureTextstegencodeparallel.py): text embed in image steganography using parallelization
+4.    [pureTextstegs.py](pureTextstegs.py): text embed in image steganography using serialization 
 - Run any of the above files using their driver codes to a) Encrypt or b) Decrypt image/text file(s).
 
 (Important thing to note is that the individual size of a cover image always surpasses that of a secret image or text file.)
